@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>thymeleaf templeate</h1>
+<h2>first thymeleaf program</h2>
+<h1 th:text="${name}"></h1>
+<h1 th:text="${currentDate}"></h1>
+<h2>name of the owner is:<span th:text="${#strings.toUpperCase(name)}"></span></h2>
+<h1 style="color: red;" th:text="${#strings.toUpperCase(add)}"></h1>
+
+</body>
+</html>
